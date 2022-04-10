@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de John Doe">
+    <meta name="author" content="John">
+    <title>John Doe | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Icones Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    
+    <!-- Barre de navigation -->
+    <header class="py-4">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand text-uppercase fw-bold"><span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#johnDoe" class="nav-link">Qui suis-je ?</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#expertise" class="nav-link">Expertise</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Présentation -->
+        <section id="johnDoe" class="my-5">
+            <div class="container">
+                <div class="row align-items-center gy-4 gy-md-0">
+                    <div class="col-12 col-md-6">
+                        <h1 class="fw-bold">Je suis John Doe Développeur et Designer Web</h1>
+                        <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
+                        <button class="btn btn-primary mt-5 text-light">Mon expertise web</button>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/img/portrait.jpg" alt="Portrait de John Doe" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise -->
+        <section id="expertise" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-0">Mon expertise</h2>
+                <h3 class="fs-5 fw-light">Développement web et design</h3>
+                
+                <!-- Web -->
+                <div class="row gy-4 mt-4 d-flex align-items-center">
+                    <div class="col-12 col-md-7">
+                        
+                    <!-- Progress bar -->
+                        <!-- HTML -->
+                        <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                           <div class="row align-items-center">
+                                <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
+                                        <p class="fw-bold m-0">HTML5</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CSS -->
+                        <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                            <div class="row align-items-center">
+                                 <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                     <div class="d-flex align-items-center">
+                                         <i class="fab fa-css3-alt fa-2x me-3 text-primary"></i>
+                                         <p class="fw-bold m-0">CSS3</p>
+                                     </div>
+                                 </div>
+                                 <div class="col">
+                                     <div class="progress" data-bs-toggle="tooltip" title="100%">
+                                         <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="O" aria-valuemax="100"></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>  
+                        <!-- JS -->
+                        <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                            <div class="row align-items-center">
+                                 <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                     <div class="d-flex align-items-center">
+                                         <i class="fab fa-js fa-2x me-3 text-primary"></i>
+                                         <p class="fw-bold m-0">JS</p>
+                                     </div>
+                                 </div>
+                                 <div class="col">
+                                     <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- PHP -->
+                         <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                             <div class="row align-items-center">
+                                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                      <div class="d-flex align-items-center">
+                                          <i class="fab fa-php fa-2x me-3 text-primary"></i>
+                                          <p class="fw-bold m-0">PHP</p>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                          <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> 
+                          <!-- SASS -->
+                         <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                            <div class="row align-items-center">
+                                 <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                     <div class="d-flex align-items-center">
+                                         <i class="fab fa-sass fa-2x me-3 text-primary"></i>
+                                         <p class="fw-bold m-0">SASS</p>
+                                     </div>
+                                 </div>
+                                 <div class="col">
+                                     <div class="progress" data-bs-toggle="tooltip" title="50%">
+                                         <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="O" aria-valuemax="100"></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div> 
+
+
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-1">
+                        <img src="./assets/img/code.jpg" alt="code" class="w-100 rounded shadow">
+                    </div>
+                </div>
+               
+                <!-- Design -->
+                <div class="row gy-4 mt-4 d-flex align-items-center">
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/design.jpg" alt="design" class="w-100 rounded shadow">
+                    </div>
+                    <div class="col-12 col-md-7 offset-md-1">
+                        
+                        <!-- Progress bar -->
+                        <!-- Figma -->
+                        <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                            <div class="row align-items-center">
+                                 <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                     <div class="d-flex align-items-center">
+                                         <i class="fab fa-figma fa-2x me-3 text-primary"></i>
+                                         <p class="fw-bold m-0">Figma</p>
+                                     </div>
+                                 </div>
+                                 <div class="col">
+                                     <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- Adobe -->
+                         <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                             <div class="row align-items-center">
+                                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                      <div class="d-flex align-items-center">
+                                          <i class="fas fa-photo-video fa-2x me-3 text-primary"></i>
+                                          <p class="fw-bold m-0">Suite Adobe</p>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="progress" data-bs-toggle="tooltip" title="100%">
+                                          <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="O" aria-valuemax="100"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>  
+                         <!-- Design UI -->
+                         <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                             <div class="row align-items-center">
+                                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                      <div class="d-flex align-items-center">
+                                          <i class="fas fa-palette fa-2x me-3 text-primary"></i>
+                                          <p class="fw-bold m-0">Design UI</p>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                          <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Design UX -->
+                          <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                              <div class="row align-items-center">
+                                   <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                       <div class="d-flex align-items-center">
+                                           <i class="fas fa-vial fa-2x me-3 text-primary"></i>
+                                           <p class="fw-bold m-0">Design UX</p>
+                                       </div>
+                                   </div>
+                                   <div class="col">
+                                       <div class="progress" data-bs-toggle="tooltip" title="75%">
+                                           <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="O" aria-valuemax="100"></div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div> 
+                           <!-- Video -->
+                          <div class="mb-3 p-3 bg-white rounded shadow-sm">
+                             <div class="row align-items-center">
+                                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                                      <div class="d-flex align-items-center">
+                                          <i class="fas fa-video fa-2x me-3 text-primary"></i>
+                                          <p class="fw-bold m-0">Vidéo</p>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="progress" data-bs-toggle="tooltip" title="50%">
+                                          <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="O" aria-valuemax="100"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <h2 class="mb-0">Mon portfolio</h2>
+                <h3 class="fs-5 fw-light">Projets perso et pro</h3>
+                
+                <div class="row gy-4 gy-md-0 mt-4">
+                    
+                    <!-- Card 1 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150?random=1" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis similique saepe magnam expedita debitis?</p>
+                                <button class="btn btn-primary text-light" data-bs-toggle="offcanvas" data-bs-target="#infoProjet1" aria-controls="titleProjet1">Go somewhere</button>
+                            </div>
+                                <!-- Offcanvas -->
+                            <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet1" aria-labelledby="titleProjet1">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="titleProjet1">Projet 1</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- Carrousel -->
+                                    <div id="carouselProjet1" class="carousel slide shadow h-100" data-bs-ride="carousel" data-bs-touch="true">
+                                        <div class="carousel-inner h-100">
+                                            <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                                <img src="https://picsum.photos/300/150?random=1" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 1</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="2000">
+                                                <img src="https://picsum.photos/300/150?random=2" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 2</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100">
+                                                <img src="https://picsum.photos/300/150?random=3" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 3</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150?random=4" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis similique saepe magnam expedita debitis?</p>
+                                <button class="btn btn-primary text-light" data-bs-toggle="offcanvas" data-bs-target="#infoProjet2" aria-controls="titleProjet2">Go somewhere</button>
+                            </div>
+                                <!-- Offcanvas -->
+                            <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet2" aria-labelledby="titleProjet2">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-header">Projet 2</h5>
+                                    <button typ="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- Carrousel -->
+                                    <div id="carouselProjet2" class="carousel slide shadow h-100" data-bs-ride="carousel" data-bs-touch="true">
+                                        <div class="carousel-inner h-100">
+                                            <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                                <img src="https://picsum.photos/300/150?random=4" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 1</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="2000">
+                                                <img src="https://picsum.photos/300/150?random=5" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 2</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100">
+                                                <img src="https://picsum.photos/300/150?random=6" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 3</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150?random=7" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis similique saepe magnam expedita debitis?</p>
+                                <button class="btn btn-primary text-light" data-bs-toggle="offcanvas" data-bs-target="#infoProjet3" aria-controls="titleProjet3">Go somewhere</button>
+                            </div>
+                                <!-- Offcanvas -->
+                            <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet3" aria-labelledby="titleProjet3">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-header">Projet 3</h5>
+                                    <button typ="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- Carrousel -->
+                                    <div id="carouselProjet3" class="carousel slide shadow h-100" data-bs-ride="carousel" data-bs-touch="true">
+                                        <div class="carousel-inner h-100">
+                                            <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                                <img src="https://picsum.photos/300/150?random=7" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 1</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="2000">
+                                                <img src="https://picsum.photos/300/150?random=8" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 2</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100">
+                                                <img src="https://picsum.photos/300/150?random=9" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 3</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150?random=10" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 4</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis similique saepe magnam expedita debitis?</p>
+                                <button class="btn btn-primary text-light" data-bs-toggle="offcanvas" data-bs-target="#infoProjet4" aria-controls="titleProjet4">Go somewhere</button>
+                            </div>
+                                <!-- Offcanvas -->
+                            <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet4" aria-labelledby="titleProjet4">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-header">Projet 4</h5>
+                                    <button typ="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- Carrousel -->
+                                    <div id="carouselProjet4" class="carousel slide shadow h-100" data-bs-ride="carousel" data-bs-touch="true">
+                                        <div class="carousel-inner h-100">
+                                            <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                                <img src="https://picsum.photos/300/150?random=10" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 1</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100" data-bs-interval="2000">
+                                                <img src="https://picsum.photos/300/150?random=11" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 2</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item h-100">
+                                                <img src="https://picsum.photos/300/150?random=12" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Slide 3</h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-0">Un projet de création web ?</h2>
+                <h3 class="fs-5 fw-light">Allons en discuter autour d'un café</h3>
+                <div class="row gy-4 mt-4 align-items-center">
+                    <div class="col-12 col-md-5">
+                        <img src="./assets/img/grab-a-coffee.jpg" alt="café" class="rounded shadow w-100">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1">
+                        <form class="row gy-4">
+                            <div class="col-6">
+                                <label for="prenom" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" name="prenom" id="prenom">
+                            </div>
+                            <div class="col-6">
+                                <label for="nom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" name="nom" id="nom">
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="text" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="message" id="message" rows="3" class="form-control"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 text-light">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-top">
+        <div class="container py-5">
+            <div class="row gy-4 align-items-center">
+                
+                <div class="col-12 col-md-4">
+                    <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+                        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+                    </a>
+                </div>
+                
+                <div class="col-12 col-md-4 text-md-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#mentionsLegales">Mentions légales</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-12 col-md-4 text-md-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" target=”_blank” class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target=”_blank” class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"> 
+                            <a href="#" target=”_blank” class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter"><i class="bi bi-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mentionsLegales" tabindex="-1">
+            <div class="modal-dialog modal-dialog-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mentions légales</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab officia pariatur accusamus, cumque placeat eaque et. Saepe nobis deserunt quia a esse sequi reiciendis non voluptatem vitae autem temporibus, aspernatur quae distinctio eveniet assumenda inventore possimus consequatur unde magni eum cupiditate omnis. Repellendus expedita vel perferendis aspernatur reiciendis eaque? Molestiae?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo temporibus perspiciatis quaerat inventore, eaque deleniti!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+</html>
