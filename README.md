@@ -4,7 +4,7 @@ _Repo created for the course [Créer des sites web responsives avec Bootstrap 5]
 
 - Self-learning and self-training
 - Theorical duration of the course : 10h
-- [GitHub Page]()
+- [GitHub Page](https://eliseprts.github.io/opc-bootstrap/)
 
 ## Technologies used
 
